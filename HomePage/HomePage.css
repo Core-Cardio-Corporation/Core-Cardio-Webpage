@@ -33,6 +33,11 @@ html {
     color: palevioletred;
 }
 
+.nav-links li:hover a {
+    text-decoration: none;
+    color: maroon;
+}
+
 .contact,
 .video,
 .jreid,
@@ -48,7 +53,18 @@ html {
     width: 13%;
 }
 
-.ccc-logo {
+.contact:hover,
+.video:hover,
+.jreid:hover,
+.about:hover,
+.home:hover {
+    cursor: pointer;
+    background-color: palevioletred;
+    color: maroon;
+    border-color: maroon;
+}
+
+.ccc-logo, .AHA-Logo{
     height: 50px;
     width: auto;
     border-radius: 50px;
@@ -56,17 +72,17 @@ html {
     border-color: palevioletred;
 }
 
-
-
-
-
-
 .bottom-navigation {
-    image-resolution: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    z-index: 100;
     display: flex;
-    margin: auto;
     justify-content: center;
     align-content: center;
+    background: transparent;
+    box-shadow: none;
 }
 
 .nav-links2 {
@@ -79,8 +95,6 @@ html {
     margin: 0;
     gap: 2rem;
     background: black;
-    border-radius: 2rem;
-    box-shadow: 0 2px 8px black;
     text-align: center;
 }
 
