@@ -57,6 +57,10 @@ html {
 }
 
 
+
+
+
+
 .bottom-navigation {
     image-resolution: auto;
     display: flex;
@@ -74,26 +78,26 @@ html {
     padding: 0.75rem 2rem;
     margin: 0;
     gap: 2rem;
-    background: white;
+    background: black;
     border-radius: 2rem;
-    box-shadow: 0 2px 8px maroon;
+    box-shadow: 0 2px 8px black;
     text-align: center;
 }
 
-.nav-links a {
+.nav-links2 a {
     text-decoration: none;
-    color: palevioletred;
+    color: white;
 }
 
-.contact,
-.video,
-.jreid,
-.about,
-.home {
-    background-color: maroon;
+.contact2,
+.video2,
+.jreid2,
+.about2,
+.home2 {
+    background-color: none;
     border: 2.5px;
     border-style: solid;
-    border-color: palevioletred;
+    border-color: white;
     padding: 10px;
     padding-top: 13px;
     border-radius: 10px;
@@ -105,5 +109,5 @@ html {
     width: auto;
     border-radius: 50px;
     border-style: solid;
-    border-color: palevioletred;
+    border-color: maroon;
 }
