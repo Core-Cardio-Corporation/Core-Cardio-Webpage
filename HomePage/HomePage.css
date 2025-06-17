@@ -1,0 +1,113 @@
+html {
+    margin: auto;
+    font-family: "Cascadia Mono", sans-serif;
+    font-weight: bold;
+    background-color: brown;
+}
+
+.navigation {
+    image-resolution: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    padding: 0.75rem 2rem;
+    margin: 0;
+    gap: 2rem;
+    background: white;
+    border-radius: 2rem;
+    box-shadow: 0 2px 8px maroon;
+    text-align: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+.contact,
+.video,
+.jreid,
+.about,
+.home {
+    background-color: maroon;
+    border: 2.5px;
+    border-style: solid;
+    border-color: palevioletred;
+    padding: 10px;
+    padding-top: 13px;
+    border-radius: 10px;
+    width: 13%;
+}
+
+.ccc-logo {
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: palevioletred;
+}
+
+
+
+
+
+
+.bottom-navigation {
+    image-resolution: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-links2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    padding: 0.75rem 2rem;
+    margin: 0;
+    gap: 2rem;
+    background: black;
+    border-radius: 2rem;
+    box-shadow: 0 2px 8px black;
+    text-align: center;
+}
+
+.nav-links2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact2,
+.video2,
+.jreid2,
+.about2,
+.home2 {
+    background-color: none;
+    border: 2.5px;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    padding-top: 13px;
+    border-radius: 10px;
+    width: 13%;
+}
+
+.ccc-logo2 {
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: maroon;
+}
