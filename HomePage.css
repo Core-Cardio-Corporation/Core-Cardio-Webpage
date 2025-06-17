@@ -1,4 +1,21 @@
 html {
     margin: auto;
-    font-family: ;
+    font-family: "Cascadia Mono", sans-serif;
+    font-weight: bold;
+}
+
+.navigation {
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    background-color: khaki;
+    color: antiquewhite;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
 }
