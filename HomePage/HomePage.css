@@ -5,6 +5,12 @@ html {
     background-color: brown;
 }
 
+.title {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 .navigation {
     image-resolution: auto;
     display: flex;
@@ -37,8 +43,6 @@ html {
     text-decoration: none;
     color: maroon;
 }
-
-
 
 .contact,
 .video,
@@ -147,4 +151,8 @@ html {
     border-radius: 50px;
     border-style: solid;
     border-color: maroon;
+}
+
+.body-something {
+    background-color: aliceblue;
 }
