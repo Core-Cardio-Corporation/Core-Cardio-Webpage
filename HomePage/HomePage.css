@@ -156,10 +156,11 @@ html {
     bottom: 0;
     width: 100vw;
     z-index: 100;
+    display: flex;
+    justify-content: center;
     align-content: center;
     background: transparent;
     box-shadow: none;
-    gap: 1rem;
 }
 .float-child1 {
     width: 20%;
