@@ -38,6 +38,8 @@ html {
     color: maroon;
 }
 
+
+
 .contact,
 .video,
 .jreid,
@@ -64,7 +66,8 @@ html {
     border-color: maroon;
 }
 
-.ccc-logo, .AHA-Logo{
+.ccc-logo,
+.AHA-Logo {
     height: 50px;
     width: auto;
     border-radius: 50px;
@@ -103,12 +106,32 @@ html {
     color: white;
 }
 
+.nav-links2 li:hover a {
+    text-decoration: none;
+    color: black;
+}
+
 .contact2,
 .video2,
 .jreid2,
 .about2,
 .home2 {
-    background-color: none;
+    background-color: black;
+    border: 2.5px;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    padding-top: 13px;
+    border-radius: 10px;
+    width: 13%;
+}
+
+.contact2:hover,
+.video2:hover,
+.jreid2:hover,
+.about2:hover,
+.home2:hover {
+    background-color: gray;
     border: 2.5px;
     border-style: solid;
     border-color: white;
