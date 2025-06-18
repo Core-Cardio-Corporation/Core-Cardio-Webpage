@@ -253,6 +253,7 @@ body {
     position: static;
     height: auto;
     border: none;
+    background-color:bisque;
 }
 
 
@@ -263,16 +264,16 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin: 4 5rem;
+    margin: 0 15rem;
     color: white;
 }
    .float-child4{
-    width: 10px;
+    width: 50%;
     border: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    margin: 4 5rem;
-    color: white;
+    margin: 0 5rem;
+    color: rgb(0, 0, 0);
 }
