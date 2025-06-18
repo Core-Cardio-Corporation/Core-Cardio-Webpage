@@ -178,3 +178,67 @@ body {
     border-style: solid;
     border-color: maroon;
 }
+.ccc-logo2 {
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: maroon;
+}
+
+.information-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    font-size: 15px;
+    padding: 0.25rem 2rem 0 2rem;
+    position: static;
+    height: auto;
+    border: none;
+}
+
+.float-child1,
+.float-child2,
+.float-child3 {
+    width: auto;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 1rem;
+    color: white;
+}
+
+.float-child1 a {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+    .nav-links,
+    .nav-links2 {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0.5rem 1vw;
+    }
+    .body {
+        padding: 0.5rem 1vw 10rem 1vw;
+    }
+    .information-container {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 12px;
+        padding: 0.25rem 1vw 0 1vw;
+    }
+
+    .float-child1,
+    .float-child2,
+    .float-child3 {
+        margin: 0.25rem 0;
+        align-items: flex-start;
+    }
+}
