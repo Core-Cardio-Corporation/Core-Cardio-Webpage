@@ -1,0 +1,180 @@
+html {
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    background-color: brown;
+}
+
+html, body {
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.title {
+    color: bisque;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: xxx-large;
+}
+
+.navigation {
+    image-resolution: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    padding: 0.75rem 2rem;
+    margin: 0;
+    gap: 2rem;
+    background: white;
+    border-radius: 2rem;
+    box-shadow: 0 2px 8px maroon;
+    text-align: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+.nav-links li:hover a {
+    text-decoration: none;
+    color: maroon;
+}
+
+.contact,
+.video,
+.jreid,
+.about,
+.home {
+    background-color: maroon;
+    border: 2.5px;
+    border-style: solid;
+    border-color: palevioletred;
+    padding: 10px;
+    padding-top: 13px;
+    border-radius: 10px;
+    width: 13%;
+}
+
+.contact:hover,
+.video:hover,
+.jreid:hover,
+.about:hover,
+.home:hover {
+    cursor: pointer;
+    background-color: palevioletred;
+    color: maroon;
+    border-color: maroon;
+}
+
+.ccc-logo,
+.AHA-Logo {
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: palevioletred;
+}
+
+.body {
+    background-color: bisque;
+    width: 100%;
+    max-width: 100vw;
+    padding: 0.75rem 2vw 2vw; /* Set bottom padding to 0 */
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.bottom-navigation {
+    position: static; /* Remove fixed positioning */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    box-shadow: none;
+    padding-bottom: 0; /* Remove bottom padding */
+    margin-bottom: 0;  /* Remove bottom margin */
+}
+
+.nav-links2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    padding: 0.75rem 2rem;
+    margin: 0;
+    gap: 2rem;
+    background: black;
+    text-align: center;
+}
+
+.nav-links2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links2 li:hover a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact2,
+.video2,
+.jreid2,
+.about2,
+.home2 {
+    background-color: black;
+    border: 2.5px;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    padding-top: 13px;
+    border-radius: 10px;
+    width: 13%;
+}
+
+.contact2:hover,
+.video2:hover,
+.jreid2:hover,
+.about2:hover,
+.home2:hover {
+    background-color: gray;
+    border: 2.5px;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    padding-top: 13px;
+    border-radius: 10px;
+    width: 13%;
+}
+
+.ccc-logo2 {
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: maroon;
+}
