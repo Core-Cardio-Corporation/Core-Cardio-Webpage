@@ -243,3 +243,36 @@ body {
         align-items: flex-start;
     }
 }
+.JReid-Indeed{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    padding: 0.25rem 2rem 0 2rem;
+    position: static;
+    height: auto;
+    border: none;
+}
+
+
+.float-child5{
+    width: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 4 5rem;
+    color: white;
+}
+   .float-child4{
+    width: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 4 5rem;
+    color: white;
+}
