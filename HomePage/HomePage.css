@@ -79,6 +79,14 @@ html {
     border-color: palevioletred;
 }
 
+.body {
+    background-color: bisque;
+    padding-left: 10px;
+    width: 100%;
+    padding: 0.75rem 2rem;
+    padding-bottom: 10rem;
+}
+
 .bottom-navigation {
     position: fixed;
     left: 0;
