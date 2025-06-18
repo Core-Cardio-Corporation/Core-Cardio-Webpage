@@ -82,7 +82,7 @@ html {
 .bottom-navigation {
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 1;
     width: 100vw;
     z-index: 100;
     display: flex;
@@ -153,6 +153,31 @@ html {
     border-color: maroon;
 }
 
-.body-something {
-    background-color: aliceblue;
+
+.information-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    z-index: 100;
+    display: flex;
+    justify-content: right;
+    align-content: right;
+    background: transparent;
+    height: 55px;
+    font-size: 15px;
+}
+.float-child1, .float-child2 {
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    border: red 1px solid;
+}
+
+.float-child3 {
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    border: red 1px solid;
+
 }
