@@ -3,6 +3,7 @@ html {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     background-color: brown;
+    word-wrap: break-word;
 }
 
 html, body {
@@ -211,7 +212,7 @@ body {
     text-decoration: underline;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
     .nav-links,
     .nav-links2 {
         flex-direction: column;
