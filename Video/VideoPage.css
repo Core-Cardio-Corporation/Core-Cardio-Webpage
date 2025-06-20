@@ -178,7 +178,13 @@ body {
     width: 300px;
     display: block;
 }
-
+#Survey-button {
+    background-color: brown;
+    border: none;
+    width: 80%;
+    height: 50px;
+    margin: 5px
+}
 
 
 
