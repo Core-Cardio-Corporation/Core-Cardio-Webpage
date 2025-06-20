@@ -122,7 +122,7 @@ body {
 .video-section {
     padding-top: 0px;
     word-wrap: break-word;
-    border: none;
+    border-bottom: 4px black;
     padding-bottom: 20px;
     padding-right: 20px;
     padding-left: 20px;
@@ -138,7 +138,6 @@ body {
     margin: 0 auto;
     height: device-height;
     float: left;
-    border: 2px solid red;
     align-items: center;
 
 }
@@ -149,16 +148,52 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
     float: right;
-    border: 2px solid red;
 }  
 #Our-creation {
+    font-size: 40px;
+}
+#Our-creation-paragraph {
+    font-size: 18px;
+}
+
+.section-divide {
+    color: black;
+    border: none;
+    border-bottom: 2px solid;
+    border-radius: 100px;
+    width: 95%;
+}
+
+.Survey {
     text-align: center;
-    font-size: 50px;
-    line-height: 0px;
 }
-#Our-creation-paragraph{
-    font-size: 20px;
+#Survey-title{
+    font-size: 60px;
+    line-height: 20px;
 }
+.subtitle-underline {
+    color: black;
+    border: none;
+    border-bottom: 4px solid;
+    width: 300px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bottom-navigation {
     position: static; /* Remove fixed positioning */
