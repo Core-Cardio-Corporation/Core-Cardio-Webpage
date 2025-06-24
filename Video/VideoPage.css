@@ -27,6 +27,7 @@ body {
     font-size: xxx-large;
     font-size: 100px;
     line-height: 20px;
+    margin-bottom: 40px;
 
 }
 .CCC {
@@ -34,12 +35,13 @@ body {
     text-align: center;
     font-size: x-large;
 }
-.line {
-    color: navy;
+.title-underline {
+    color: bisque;
     border: none;
     border-bottom: 4px solid;
-    width: 300px;
+    width: 310px;
     display: block;
+    margin-bottom: 40px;
 }
 
 .navigation {
@@ -68,6 +70,7 @@ body {
 .nav-links a {
     text-decoration: none;
     color: palevioletred;
+    font-style: strong;
 }
 
 .nav-links li:hover a {
@@ -170,23 +173,56 @@ body {
 #Survey-title{
     font-size: 60px;
     line-height: 20px;
+    margin-bottom: 30px;
 }
 .subtitle-underline {
     color: black;
     border: none;
     border-bottom: 4px solid;
-    width: 300px;
+    width: 250px;
     display: block;
 }
 #Survey-button {
     background-color: brown;
-    border: none;
+    border: black 1px solid;
     width: 80%;
     height: 50px;
-    margin: 5px
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px black;
+    border-style: solid;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    box-sizing: border-box;
+    color: bisque;
+    margin-bottom: 30px;
+}
+#Survey-button:hover{
+    background-color:firebrick;
+    width: 80.5%;
+    height: 65px;
+
+}
+#Survey-button:active {
+    background-color:palevioletred;
 }
 
-
+.Bloopers {
+    text-align: center;
+}
+#Bloopers-title{
+    font-size: 60px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.subtitle-underline2 {
+    color: black;
+    border: none;
+    border-bottom: 4px solid;
+    width: 280px;
+    display: block;
+}
 
 
 
