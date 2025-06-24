@@ -62,46 +62,43 @@ body {
     margin: 0;
     gap: 2rem;
     background: white;
-    border-radius: 2rem;
-    box-shadow: 0 2px 8px maroon;
     text-align: center;
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: palevioletred;
-    font-style: strong;
-}
-
-.nav-links li:hover a {
-    text-decoration: none;
-    color: maroon;
-}
-
+.home,
 .contact,
 .video,
 .jreid,
-.about,
-.home {
+.about {
+    width: 15%;
+}
+
+.home-button:hover,
+.contact-button:hover,
+.video-button:hover,
+.jreid-button:hover,
+.about-buttton:hover {
+    background-color: palevioletred;
+    border-radius: 10px;
+    border-color: maroon;
+}
+
+.home-button,
+.contact-button,
+.video-button,
+.jreid-button,
+.about-buttton {
+    width: 100%;
+    padding: 10px;
     background-color: maroon;
+    border: none;
+    color: white;
     border: 2.5px;
     border-style: solid;
     border-color: palevioletred;
-    padding: 10px;
-    padding-top: 13px;
     border-radius: 10px;
-    width: 13%;
-}
-
-.contact:hover,
-.video:hover,
-.jreid:hover,
-.about:hover,
-.home:hover {
-    cursor: pointer;
-    background-color: palevioletred;
-    color: maroon;
-    border-color: maroon;
+    font-size: large;
+    font-weight: bold;
 }
 
 .ccc-logo,
@@ -262,44 +259,38 @@ body {
     text-align: center;
 }
 
-.nav-links2 a {
-    text-decoration: none;
-    color: white;
-}
-
-.nav-links2 li:hover a {
-    text-decoration: none;
-    color: black;
-}
-
+.home2,
 .contact2,
 .video2,
 .jreid2,
-.about2,
-.home2 {
-    background-color: black;
-    border: 2.5px;
-    border-style: solid;
-    border-color: white;
-    padding: 10px;
-    padding-top: 13px;
-    border-radius: 10px;
-    width: 13%;
+.about2 {
+    width: 15%;
 }
 
-.contact2:hover,
-.video2:hover,
-.jreid2:hover,
-.about2:hover,
-.home2:hover {
+.home2-button:hover,
+.contact2-button:hover,
+.video2-button:hover,
+.jreid2-button:hover,
+.about2-buttton:hover {
     background-color: gray;
+    border-radius: 10px;
+}
+
+.home2-button,
+.contact2-button,
+.video2-button,
+.jreid2-button,
+.about2-buttton {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    color: white;
     border: 2.5px;
     border-style: solid;
     border-color: white;
-    padding: 10px;
-    padding-top: 13px;
     border-radius: 10px;
-    width: 13%;
+    font-size: large;
 }
 
 .ccc-logo2 {
