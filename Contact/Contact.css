@@ -126,6 +126,7 @@ body {
 
 .bio {
     font-weight: normal;
+    text-align:justify;
 }
 .maeve,.dakari,.jonah,.fransesco {
     width: 25%;
