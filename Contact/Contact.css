@@ -170,6 +170,12 @@ body {
 .underline:hover,.click-here:hover{
     color: blue;
 }
+.divide-people{
+    width: 25%;
+}
+.bio{
+    font-style: normal;
+}
 
 .name,
 .name4 {
