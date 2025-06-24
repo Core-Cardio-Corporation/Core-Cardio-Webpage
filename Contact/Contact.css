@@ -219,6 +219,10 @@ body {
     margin-left: 0;
 }
 
+.JReid-Contact hr {
+    border: 2px solid brown;
+}
+
 /* FOOTER & BOTTOM NAVIGATION */
 .bottom-navigation {
     position: static;
