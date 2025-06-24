@@ -27,6 +27,7 @@ body {
     font-size: xxx-large;
     font-size: 100px;
     line-height: 20px;
+    margin-bottom: 40px;
 
 }
 .CCC {
@@ -34,12 +35,13 @@ body {
     text-align: center;
     font-size: x-large;
 }
-.line {
-    color: navy;
+.title-underline {
+    color: bisque;
     border: none;
     border-bottom: 4px solid;
-    width: 300px;
+    width: 310px;
     display: block;
+    margin-bottom: 40px;
 }
 
 .navigation {
@@ -171,12 +173,13 @@ body {
 #Survey-title{
     font-size: 60px;
     line-height: 20px;
+    margin-bottom: 30px;
 }
 .subtitle-underline {
     color: black;
     border: none;
     border-bottom: 4px solid;
-    width: 300px;
+    width: 250px;
     display: block;
 }
 #Survey-button {
@@ -205,6 +208,21 @@ body {
     background-color:palevioletred;
 }
 
+.Bloopers {
+    text-align: center;
+}
+#Bloopers-title{
+    font-size: 60px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.subtitle-underline2 {
+    color: black;
+    border: none;
+    border-bottom: 4px solid;
+    width: 280px;
+    display: block;
+}
 
 
 
