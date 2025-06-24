@@ -241,6 +241,7 @@ html, body {
     box-sizing: border-box;
     margin: 0 auto;
     border: none;
+    margin-top: 30px;
 }
 .grptxt{
     background-color: bisque;
@@ -252,6 +253,7 @@ html, body {
     border: none;
     font-size:23px;
     line-height:40px;
+    font-weight: normal;
 }
 
 html, body {
@@ -285,11 +287,11 @@ body {
     margin: 0 auto;
 }
 
-.title1 {
+.title-members {
     border-top: 4px solid maroon;
     color: maroon;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 1%;
     padding-bottom: 3%;
     font-size: xxx-large;
     line-height:20px;
@@ -305,6 +307,7 @@ body {
     margin: 0 auto 8px auto;
     justify-content: center;
     align-content: center;
+    
 }
 
 .name, .name4 {
@@ -326,3 +329,7 @@ body {
     margin-left:55px;
 }
 
+.people-paragraph{
+    padding-left: 30px;
+    
+}
