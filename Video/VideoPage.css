@@ -191,7 +191,8 @@ body {
     padding-bottom: 50px;
     font-size: 30px;
     box-sizing: border-box;
-
+    color: bisque;
+    margin-bottom: 30px;
 }
 #Survey-button:hover{
     background-color:firebrick;
