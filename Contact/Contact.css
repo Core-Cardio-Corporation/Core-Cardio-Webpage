@@ -123,6 +123,24 @@ body {
     border-color: palevioletred;
 }
 
+
+.bio {
+    font-weight: normal;
+}
+.maeve,.dakari,.jonah,.fransesco {
+    width: 25%;
+}
+.click-here{
+    color: black;
+}
+.click-here:hover{
+    color: blue;
+}
+
+
+
+
+
 .bottom-navigation {
     position: static;
     width: 100vw;
