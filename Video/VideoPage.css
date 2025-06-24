@@ -180,12 +180,28 @@ body {
 }
 #Survey-button {
     background-color: brown;
-    border: none;
+    border: black 1px solid;
     width: 80%;
     height: 50px;
-    margin: 5px
-}
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px black;
+    border-style: solid;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    box-sizing: border-box;
 
+}
+#Survey-button:hover{
+    background-color:firebrick;
+    width: 80.5%;
+    height: 65px;
+
+}
+#Survey-button:active {
+    background-color:palevioletred;
+}
 
 
 
