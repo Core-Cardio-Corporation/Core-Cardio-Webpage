@@ -68,6 +68,7 @@ body {
 .nav-links a {
     text-decoration: none;
     color: palevioletred;
+    font-style: strong;
 }
 
 .nav-links li:hover a {
