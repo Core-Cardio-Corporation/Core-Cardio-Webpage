@@ -23,29 +23,7 @@ body {
     box-sizing: border-box;
 }
 
-.title-contact {
-    color: bisque;
-    text-align: center;
-    font-size: xxx-large;
-    font-size: 100px;
-    line-height: 20px;
-    margin-bottom: 40px;
-
-}
-.CCC {
-    color: bisque;
-    text-align: center;
-    font-size: x-large;
-}
-.title-underline {
-    color: bisque;
-    border: none;
-    border-bottom: 4px solid;
-    width: 550px;
-    display: block;
-    margin-bottom: 40px;
-}
-
+/* HEADER & NAVIGATION */
 .navigation {
     image-resolution: auto;
     display: flex;
@@ -69,22 +47,21 @@ body {
     text-align: center;
 }
 
+.ccc-logo,
+.AHA-Logo {
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: palevioletred;
+}
+
 .home,
 .contact,
 .video,
 .jreid,
 .about {
     width: 15%;
-}
-
-.home-button:hover,
-.contact-button:hover,
-.video-button:hover,
-.jreid-button:hover,
-.about-buttton:hover {
-    background-color: palevioletred;
-    border-radius: 10px;
-    border-color: maroon;
 }
 
 .home-button,
@@ -105,6 +82,42 @@ body {
     font-weight: bold;
 }
 
+.home-button:hover,
+.contact-button:hover,
+.video-button:hover,
+.jreid-button:hover,
+.about-buttton:hover {
+    background-color: palevioletred;
+    border-radius: 10px;
+    border-color: maroon;
+}
+
+/* TITLE */
+.CCC {
+    color: bisque;
+    text-align: center;
+    font-size: x-large;
+}
+
+.title-contact {
+    color: bisque;
+    text-align: center;
+    font-size: xxx-large;
+    font-size: 100px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.title-underline {
+    color: bisque;
+    border: none;
+    border-bottom: 4px solid;
+    width: 550px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+/* MAIN BODY */
 .body {
     background-color: bisque;
     width: 100%;
@@ -114,15 +127,99 @@ body {
     margin: 0 auto;
 }
 
-.ccc-logo,
-.AHA-Logo {
-    height: 50px;
-    width: auto;
-    border-radius: 50px;
-    border-style: solid;
-    border-color: palevioletred;
+.omg-were-people {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 0.25rem 2rem 0 2rem;
+    position: static;
+    height: auto;
+    border: none;
+    background-color: bisque;
 }
 
+.omg-were-people li {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: black;
+}
+
+.omg-were-people img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 8px auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.name,
+.name4 {
+    background-color: maroon;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 0 8px 0;
+    line-height: 1.1;
+    white-space: nowrap;
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.line1 {
+    border: none;
+    border-bottom: 4px solid bisque;
+    width: 250px;
+    margin: 0 auto 4% auto;
+    display: block;
+}
+
+.line2 {
+    border: none;
+    border-bottom: 4px solid brown;
+    width: 95%;
+    margin: 0 auto 4% auto;
+    display: block;
+}
+
+.jreid-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.jreid-img {
+    height: auto;
+    width: 250px;
+    margin: 5px;
+    margin-left: 7%;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: brown;
+    border-width: 4px;
+    padding: 35px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.JReid-Contact {
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    margin-left: 0;
+}
+
+/* FOOTER & BOTTOM NAVIGATION */
 .bottom-navigation {
     position: static;
     width: 100vw;
@@ -148,21 +245,20 @@ body {
     text-align: center;
 }
 
+.ccc-logo2 {
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: maroon;
+}
+
 .home2,
 .contact2,
 .video2,
 .jreid2,
 .about2 {
     width: 15%;
-}
-
-.home2-button:hover,
-.contact2-button:hover,
-.video2-button:hover,
-.jreid2-button:hover,
-.about2-buttton:hover {
-    background-color: gray;
-    border-radius: 10px;
 }
 
 .home2-button,
@@ -182,12 +278,13 @@ body {
     font-size: large;
 }
 
-.ccc-logo2 {
-    height: 50px;
-    width: auto;
-    border-radius: 50px;
-    border-style: solid;
-    border-color: maroon;
+.home2-button:hover,
+.contact2-button:hover,
+.video2-button:hover,
+.jreid2-button:hover,
+.about2-buttton:hover {
+    background-color: gray;
+    border-radius: 10px;
 }
 
 .information-container {
@@ -222,6 +319,18 @@ body {
     text-decoration: underline;
 }
 
+.float-child4 {
+    width: 50%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 5rem;
+    color: rgb(0, 0, 0);
+}
+
+/* MEDIA QUERIES */
 @media (max-width: 400px) {
 
     .nav-links,
@@ -248,68 +357,4 @@ body {
         margin: 0.25rem 0;
         align-items: flex-start;
     }
-}
-
-.line1 {
-    border: none;
-    border-bottom: 4px solid bisque;
-    width: 250px;
-    margin: 0 auto 4% auto;
-    display: block;
-}
-
-.omg-were-people {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    padding: 0.25rem 2rem 0 2rem;
-    position: static;
-    height: auto;
-    border: none;
-    background-color:bisque;
-}
-
-.omg-were-people li {
-    margin: 0 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    color: black;
-}
-   .float-child4{
-    width: 50%;
-    border: none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 0 5rem;
-    color: rgb(0, 0, 0);
-}
-
-.omg-were-people img {
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    display: block;
-    margin: 0 auto 8px auto;
-    justify-content: center;
-    align-content: center;
-}
-
-.name, .name4 {
-    background-color: maroon;
-    color: white;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 20px;
-    margin: 0px 0 8px 0;
-    line-height: 1.1;
-    white-space: nowrap;          
-    width: 100%;
-    display: block;
-    padding: 8px;
 }
