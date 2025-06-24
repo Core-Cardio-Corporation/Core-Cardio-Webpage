@@ -1,7 +1,6 @@
 html {
     margin: auto;
     font-family: "Roboto", sans-serif;
-    font-weight: bold;
     background-color: brown;
     word-wrap: break-word;
 }
@@ -20,18 +19,30 @@ body {
     max-width: 100vw;
     min-height: 100vh;
     box-sizing: border-box;
-    background-color: bisque;
 }
 
-.title {
+.title-JReid {
     color: bisque;
-    background-color: maroon;
     text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
     font-size: xxx-large;
+    font-size: 100px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    
 }
-
+.CCC {
+    color: bisque;
+    text-align: center;
+    font-size: x-large;
+}
+.title-underline {
+    color: bisque;
+    border: none;
+    border-bottom: 4px solid;
+    width: 640px;
+    display: block;
+    margin-bottom: 40px;
+}
 .navigation {
     image-resolution: auto;
     display: flex;
@@ -50,45 +61,43 @@ body {
     margin: 0;
     gap: 2rem;
     background: white;
-    border-radius: 2rem;
-    box-shadow: 0 2px 8px maroon;
     text-align: center;
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: palevioletred;
-}
-
-.nav-links li:hover a {
-    text-decoration: none;
-    color: maroon;
-}
-
+.home,
 .contact,
 .video,
 .jreid,
-.about,
-.home {
+.about {
+    width: 15%;
+}
+
+.home-button:hover,
+.contact-button:hover,
+.video-button:hover,
+.jreid-button:hover,
+.about-buttton:hover {
+    background-color: palevioletred;
+    border-radius: 10px;
+    border-color: maroon;
+}
+
+.home-button,
+.contact-button,
+.video-button,
+.jreid-button,
+.about-buttton {
+    width: 100%;
+    padding: 10px;
     background-color: maroon;
+    border: none;
+    color: white;
     border: 2.5px;
     border-style: solid;
     border-color: palevioletred;
-    padding: 10px;
-    padding-top: 13px;
     border-radius: 10px;
-    width: 13%;
-}
-
-.contact:hover,
-.video:hover,
-.jreid:hover,
-.about:hover,
-.home:hover {
-    cursor: pointer;
-    background-color: palevioletred;
-    color: maroon;
-    border-color: maroon;
+    font-size: large;
+    font-weight: bold;
 }
 
 .ccc-logo,
@@ -109,26 +118,43 @@ body {
     margin: 2rem 0;
 }
 
+.body {
+    background-color: bisque;
+    width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
 .float-child4,
 .float-child5 {
-    flex: 1;
-    padding: 1rem;
+     flex: 1;
+    padding: 1.5rem 1rem; /* More padding for content */
+    min-width: 220px;     /* Prevents columns from collapsing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .float-child5 img {
-    display: block;
+     display: block;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+    border-radius: 1rem; /* Optional: rounded image corners */
+    box-shadow: 0 1px 8px rgba(128,64,0,0.08);
 }
 
 .bottom-navigation {
+    position: static; /* Remove fixed positioning */
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #111;
-    padding: 1rem 0 0 0;
+    background: transparent;
+    box-shadow: none;
+    padding-bottom: 0; /* Remove bottom padding */
+    margin-bottom: 0;  /* Remove bottom margin */
 }
 
 .nav-links2 {
@@ -136,53 +162,54 @@ body {
     align-items: center;
     justify-content: center;
     list-style: none;
-    padding: 0;
+    width: 100%;
+    padding: 0.75rem 2rem;
     margin: 0;
     gap: 2rem;
-}
-
-.nav-links2 a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.1rem;
-    padding: 0.5rem 1.5rem;
-    background: maroon;
-    border-radius: 10px;
-    border: 2px solid #fff;
-    transition: background 0.2s, color 0.2s;
-    display: inline-block;
-}
-
-.nav-links2 li:hover a,
-.nav-links2 li:focus-within a {
-    background-color: #fff;
-    color: maroon;
+    background: black;
+    text-align: center;
 }
 
 .home2,
-.about2,
-.jreid2,
+.contact2,
 .video2,
-.contact2 {
-    margin: 0 0.5rem;
+.jreid2,
+.about2 {
+    width: 15%;
 }
 
-.home2:hover,
-.about2:hover,
-.jreid2:hover,
-.video2:hover,
-.contact2:hover {
-    /* handled by nav-links2 li:hover a */
+.home2-button:hover,
+.contact2-button:hover,
+.video2-button:hover,
+.jreid2-button:hover,
+.about2-buttton:hover {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.home2-button,
+.contact2-button,
+.video2-button,
+.jreid2-button,
+.about2-buttton {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    border: 2.5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    font-size: large;
 }
 
 .ccc-logo2 {
-    height: 40px;
+    height: 50px;
     width: auto;
-    margin: 0 1rem;
-    border-radius: 50%;
-    background: rgb(255, 255, 255);
-    padding: 2px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: maroon;
 }
 
 .information-container {
@@ -190,7 +217,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: transparent;
+    background: black;
     font-size: 15px;
     padding: 0.25rem 2rem 0 2rem;
     position: static;
@@ -206,6 +233,7 @@ body {
     align-items: flex-start;
     justify-content: center;
     margin: 0 1rem;
+    color: white;
 }
 
 .float-child1 a {
@@ -214,7 +242,7 @@ body {
     text-decoration: underline;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
     .nav-links,
     .nav-links2 {
         flex-direction: column;
@@ -236,23 +264,42 @@ body {
         gap: 1rem;
     }
 }
-.JReid-Indeed{background-color: bisque;
+.JReid-Indeed{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 2rem 0;
+    background-color: bisque;
+    padding: 2rem 2rem 2rem 2rem; /* Add padding for content spacing */
+    border-radius: 1.5rem;         /* Rounded corners for a softer look */
+    box-shadow: 0 2px 12px rgba(128,64,0,0.10); /* Subtle shadow */
+    min-height: 200px;             /* Prevents the section from looking too empty */
 }
+
 .Justin-Reid {
     background-color: bisque;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 1.5rem;
     margin: 2rem 0;
+    padding: 2rem 2rem 2rem 2rem; /* Add padding for content spacing */
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 12px rgba(128,64,0,0.10);
+    min-height: 180px;
 }
-
-.float-child6{
-    text-align: right;
-    padding: 1.5rem 2rem 1.5rem 0;
-    margin: 1rem 0 1rem auto;
+.JReid-Indeed img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
-
-
-   
+.float-child2,
+.float-child3{
+    color: white;
+}
