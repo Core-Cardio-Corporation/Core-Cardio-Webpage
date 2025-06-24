@@ -35,6 +35,14 @@ body {
     text-align: center;
     font-size: x-large;
 }
+.title-underline {
+    color: bisque;
+    border: none;
+    border-bottom: 4px solid;
+    width: 640px;
+    display: block;
+    margin-bottom: 40px;
+}
 .navigation {
     image-resolution: auto;
     display: flex;

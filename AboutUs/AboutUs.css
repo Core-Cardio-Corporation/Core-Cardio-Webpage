@@ -11,7 +11,28 @@ html, body {
     overflow-x: hidden;
     box-sizing: border-box;
 }
+.title-About {
+    color: bisque;
+    text-align: center;
+    font-size: xxx-large;
+    font-size: 100px;
+    line-height: 20px;
+    margin-bottom: 40px;
 
+}
+.CCC {
+    color: bisque;
+    text-align: center;
+    font-size: x-large;
+}
+.title-underline {
+    color: bisque;
+    border: none;
+    border-bottom: 4px solid;
+    width: 460px;
+    display: block;
+    margin-bottom: 40px;
+}
 
 .navigation {
     image-resolution: auto;
