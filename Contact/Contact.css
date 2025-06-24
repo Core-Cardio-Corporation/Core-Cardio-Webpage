@@ -292,7 +292,7 @@ body {
 
 .omg-were-people img {
     width: 250px;
-    height: 200px;
+    height: auto;
     border-radius: 10px;
     display: block;
     margin: 0 auto 8px auto;
