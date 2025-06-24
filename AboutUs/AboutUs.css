@@ -331,5 +331,6 @@ body {
 
 .people-paragraph{
     padding-left: 30px;
-    
+    font-weight: normal;
+    font-size: larger;
 }
