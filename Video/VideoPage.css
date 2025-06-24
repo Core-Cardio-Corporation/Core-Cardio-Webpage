@@ -139,6 +139,7 @@ body {
     height: device-height;
     float: left;
     align-items: center;
+    margin-top: 30px;
 
 }
 .float-child-videosection2 {
@@ -167,6 +168,9 @@ body {
 .Survey {
     text-align: center;
 }
+.survey-paragraph {
+    margin-top: 30px;
+}
 #Survey-title{
     font-size: 60px;
     line-height: 20px;
@@ -193,7 +197,8 @@ body {
     font-size: 30px;
     box-sizing: border-box;
     color: bisque;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px
 }
 #Survey-button:hover{
     background-color:firebrick;
@@ -219,6 +224,7 @@ body {
     border-bottom: 4px solid;
     width: 280px;
     display: block;
+    margin-bottom: 30px;
 }
 
 
