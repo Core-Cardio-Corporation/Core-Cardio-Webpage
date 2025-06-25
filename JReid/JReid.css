@@ -5,7 +5,8 @@ html {
     word-wrap: break-word;
 }
 
-html, body {
+html,
+body {
     width: 100vw;
     max-width: 100vw;
     overflow-x: hidden;
@@ -26,15 +27,17 @@ body {
     text-align: center;
     font-size: xxx-large;
     font-size: 100px;
-    line-height: 20px;
-    margin-bottom: 40px;
-    
+    margin-bottom: -10px;
+    margin-top: -40px;
+
 }
+
 .CCC {
     color: bisque;
     text-align: center;
     font-size: x-large;
 }
+
 .title-underline {
     color: bisque;
     border: none;
@@ -43,6 +46,7 @@ body {
     display: block;
     margin-bottom: 40px;
 }
+
 .navigation {
     image-resolution: auto;
     display: flex;
@@ -134,14 +138,17 @@ body {
 .float-child4,
 .float-child5 {
     flex: 1;
-    padding: 1.5rem 1rem; /* More padding for content */
-    min-width: 220px;     /* Prevents columns from collapsing */
+    padding: 1.5rem 1rem;
+    /* More padding for content */
+    min-width: 220px;
+    /* Prevents columns from collapsing */
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: -90px;
 }
+
 .float-child4 {
     font-size: larger;
 }
@@ -150,31 +157,40 @@ body {
     display: block;
     margin: 0 auto;
     width: 130%;
-    border-radius: 1rem; /* Optional: rounded image corners */
+    border-radius: 1rem;
+    /* Optional: rounded image corners */
     margin-top: 50px;
     margin-left: -15%;
 }
+
 #paragraph1_JR {
     margin-bottom: 15px;
 }
+
 #paragraph2_JR {
     margin-top: 0px;
     margin-bottom: 15px;
 }
+
 #paragraph3_JR {
     margin-top: 0px;
 }
-.JReid-Indeed{
+
+.JReid-Indeed {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
     margin: 2rem 0;
-    padding: 2rem 2rem 2rem 2rem; /* Add padding for content spacing */
-    border-radius: 1.5rem;         /* Rounded corners for a softer look */
-    min-height: 200px;             /* Prevents the section from looking too empty */
+    padding: 2rem 2rem 2rem 2rem;
+    /* Add padding for content spacing */
+    border-radius: 1.5rem;
+    /* Rounded corners for a softer look */
+    min-height: 200px;
+    /* Prevents the section from looking too empty */
 }
+
 .JReid-Indeed-float {
     padding-top: 0px;
     word-wrap: break-word;
@@ -188,6 +204,7 @@ body {
     margin-bottom: 15px;
     margin-top: 0px;
 }
+
 .Justin-Reid {
     display: flex;
     flex-direction: row-reverse;
@@ -195,19 +212,42 @@ body {
     align-items: flex-start;
     gap: 1.5rem;
     margin: 2rem 0;
-    padding: 2rem 2rem 2rem 2rem; /* Add padding for content spacing */
+    padding: 2rem 2rem 2rem 2rem;
+    /* Add padding for content spacing */
     border-radius: 1.5rem;
     min-height: 180px;
 }
-.float-child6, .float-child7 {
-    margin-top: -30px;
+
+.float-child6,
+.float-child7 {
+    padding: 1.5rem 1rem;
+    /* More padding for content */
+    min-width: 220px;
+    /* Prevents columns from collapsing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: -90px;
+}
+.float-child6 {
+    margin-bottom: 0px;
+    width: 70%;
 }
 .float-child7 {
-    margin-top: 10px;
+    width: 30%;
+}
+
+.float-child7 img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 1rem;
+    /* Optional: rounded image corners */
+    margin-top: 50px;
 }
 
 .float-child2,
-.float-child3{
+.float-child3 {
     color: white;
 }
 
@@ -223,15 +263,18 @@ body {
 
 
 .bottom-navigation {
-    position: static; /* Remove fixed positioning */
+    position: static;
+    /* Remove fixed positioning */
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: transparent;
     box-shadow: none;
-    padding-bottom: 0; /* Remove bottom padding */
-    margin-bottom: 0;  /* Remove bottom margin */
+    padding-bottom: 0;
+    /* Remove bottom padding */
+    margin-bottom: 0;
+    /* Remove bottom margin */
 }
 
 .nav-links2 {
@@ -302,7 +345,9 @@ body {
     border: none;
 }
 
-.float-child1, .float-child2, .float-child3 {
+.float-child1,
+.float-child2,
+.float-child3 {
     width: auto;
     border: none;
     display: flex;
@@ -320,6 +365,7 @@ body {
 }
 
 @media (max-width: 500px) {
+
     .nav-links,
     .nav-links2 {
         flex-direction: column;
@@ -328,32 +374,50 @@ body {
         word-wrap: normal;
 
     }
+
     .information-container {
         flex-direction: column;
         align-items: flex-start;
         font-size: 12px;
         padding: 0.25rem 1vw 0 1vw;
     }
+
     .home,
     .contact,
     .video,
     .jreid,
     .about {
-    width: 90%;
+        width: 90%;
     }
+
     .home2,
     .contact2,
     .video2,
     .jreid2,
     .about2 {
-    width: 90%;
+        width: 90%;
     }
-    .float-child1, .float-child2, .float-child3 {
+
+    .float-child1,
+    .float-child2,
+    .float-child3 {
         margin: 0.25rem 0;
         align-items: flex-start;
     }
+
+
+
+}
+/* Only applies styles when the viewport is 600px wide or less */
+@media (max-width: 900px) {
+  /* Place your CSS code here */
     .JReid-Indeed {
         flex-direction: column;
         gap: 1rem;
     }
+    .Justin-Reid {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
 }
