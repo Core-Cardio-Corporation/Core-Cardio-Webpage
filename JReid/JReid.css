@@ -117,6 +117,11 @@ body {
     margin: 0 auto;
 }
 
+.foundation-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
 .JReid-Indeed {
     display: flex;
     flex-direction: row;
@@ -135,18 +140,25 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: -190px;
+    margin-bottom: -150px;
+}
+.float-child4 {
+    font-size: larger;
 }
 
 .float-child5 img {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: 130%;
     border-radius: 1rem; /* Optional: rounded image corners */
-    
+    margin-top: 20px;
+    margin-left: -15%;
 }
-.float-child5-pic{
-    height: 100%;
+#paragraph1_JR {
+    margin-bottom: 15px;
+}
+#paragraph2_JR {
+    margin-top: 0px;
 }
 .JReid-Indeed{
     display: flex;
@@ -166,6 +178,12 @@ body {
     padding-right: 20px;
     padding-left: 20px;
 }
+
+.paragraph-JR {
+    font-size: larger;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
 .Justin-Reid {
     display: flex;
     flex-direction: row-reverse;
@@ -176,6 +194,12 @@ body {
     padding: 2rem 2rem 2rem 2rem; /* Add padding for content spacing */
     border-radius: 1.5rem;
     min-height: 180px;
+}
+.float-child6, .float-child7 {
+    margin-top: -30px;
+}
+.float-child7 {
+    margin-top: 10px;
 }
 
 .float-child2,
