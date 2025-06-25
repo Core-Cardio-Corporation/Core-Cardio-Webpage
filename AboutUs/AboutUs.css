@@ -162,7 +162,7 @@ html, body {
 }
 
 .ccc-logo2 {
-    height: 20px;
+    height: 50px;
     width: auto;
     border-radius: 50px;
     border-style: solid;
@@ -282,12 +282,14 @@ body {
 .body {
     background-color: bisque;
     width: 100%;
-    padding: 0.75rem 2vw 2vw; /* Set bottom padding to 0 */
+    padding: 0.75rem 0vw 0vw; /* Set bottom padding to 0 */
+    padding-right: 2vw;
     box-sizing: border-box;
     margin: 0 auto;
 }
 
 .title-members {
+    margin-left: 2vw;
     border-top: 4px solid maroon;
     color: maroon;
     text-align: center;
@@ -297,7 +299,7 @@ body {
     line-height:20px;
     border-bottom: 4px solid maroon;
     padding-bottom: 2px; /* smaller value brings line closer */
-  margin-bottom: 0;    /* remove extra space below */
+    margin-bottom: 0;    /* remove extra space below */
 }
 
 .omg-were-people img {
@@ -322,11 +324,6 @@ body {
     width: 100%;
     display: block;
     padding: 8px;
-}
-
-.linkedin{
-    margin-right:55px;
-    margin-left:55px;
 }
 
 .people-paragraph{
