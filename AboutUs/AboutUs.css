@@ -2,8 +2,8 @@ html {
     margin: auto;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    word-wrap: break-word;
     background-color: brown;
+    word-wrap: break-word;
 }
 
 html, body {
@@ -202,7 +202,7 @@ html, body {
     text-decoration: underline;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .nav-links,
     .nav-links2 {
         flex-direction: column;
@@ -218,6 +218,10 @@ html, body {
         align-items: flex-start;
         font-size: 12px;
         padding: 0.25rem 1vw 0 1vw;
+    }
+    .omg-were-people img {
+    width: 75px;
+    height: 90px;
     }
     .home,
     .contact,
@@ -239,15 +243,6 @@ html, body {
         margin: 0.25rem 0;
         align-items: flex-start;
     }
-    .omg-were-people img {
-    width: 75px;
-    height: 90px;
-    border-radius: 10px;
-    display: block;
-    margin: 0 auto 8px auto;
-    justify-content: center;
-    align-content: center;
-}
 }
 
 .float-container {
