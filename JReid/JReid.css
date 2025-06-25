@@ -140,7 +140,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: -150px;
+    margin-bottom: -90px;
 }
 .float-child4 {
     font-size: larger;
@@ -151,13 +151,17 @@ body {
     margin: 0 auto;
     width: 130%;
     border-radius: 1rem; /* Optional: rounded image corners */
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: -15%;
 }
 #paragraph1_JR {
     margin-bottom: 15px;
 }
 #paragraph2_JR {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+#paragraph3_JR {
     margin-top: 0px;
 }
 .JReid-Indeed{
