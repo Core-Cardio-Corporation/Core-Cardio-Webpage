@@ -408,6 +408,11 @@ body {
 
 
 }
+@media (max-width: 622px) {
+    .title-underline {
+        width: 340px;
+    }
+}
 /* Only applies styles when the viewport is 600px wide or less */
 @media (max-width: 900px) {
   /* Place your CSS code here */
@@ -436,7 +441,9 @@ body {
         align-self: center;
         align-content: center;
         text-align: center;
-        border: solid red 2px;
+        padding-left: 50%;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     .float-child7 img {
         width: 50%;
