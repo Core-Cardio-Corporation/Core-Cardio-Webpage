@@ -416,8 +416,30 @@ body {
         gap: 1rem;
     }
     .Justin-Reid {
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 1rem;
+
     }
-    
+    .float-child4,.float-child5,.float-child6,.float-child7 {
+        width: 95%;
+    }
+    .float-child5 img {
+        width: 80%;
+        float: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        text-align: center;
+    }
+    .float-child5 {
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        text-align: center;
+        border: solid red 2px;
+    }
+    .float-child7 img {
+        width: 50%;
+        margin-top: -70px;
+    }
 }
