@@ -350,3 +350,21 @@ body {
     font-weight: normal;
     font-size: larger;
 }
+@media (max-width: 444px) {
+    .title-underline {
+        width: 320px;
+    }
+}
+@media (max-width: 644px) {
+    .title-members {
+        line-height: 80px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+}
+@media (max-width: 900px) {
+    .float-container {
+        width: 95%;
+        flex-direction: column;
+    }
+}
