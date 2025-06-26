@@ -250,6 +250,12 @@ html, body {
 	display: flex;
 
 }
+.float-container2 {
+    border: none;
+    padding: 20px;
+	display: flex;
+
+}
 
 .grpimg{
     background-color: bisque;
@@ -362,9 +368,19 @@ body {
         padding-top: 0px;
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 927px) {
     .float-container {
         width: 95%;
         flex-direction: column;
+    }
+    .grpimg {
+        width: 75%;
+        padding: 0px;
+    }
+}
+@media (max-width: 675px) {
+    .float-container2 {
+        flex-direction: column;
+        text-align: center;
     }
 }
