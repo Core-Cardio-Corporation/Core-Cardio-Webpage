@@ -185,7 +185,8 @@ body {
 }
 
 .research {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    max-width: 50%;
 }
 
 .research-info {
@@ -201,8 +202,11 @@ body {
 }
 
 .mySlides2 {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: none;
-    width: 100%;
+    width: 109%;
     height: 350px;
     object-fit: cover;
     border-radius: 16px;
@@ -221,21 +225,14 @@ body {
 
 .immediate {
     font-size: 50px;
-     text-align: center;
+    text-align: center;
     color: brown;
 }
+
 .research-slogan {
     margin-top: -50px;
     padding-top: 0px;
 }
-
-
-
-
-
-
-
-
 
 .bottom-navigation {
     position: static;
