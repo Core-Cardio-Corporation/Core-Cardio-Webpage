@@ -170,6 +170,8 @@ body {
 }
 .survey-paragraph {
     margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 #Survey-title{
     font-size: 60px;
@@ -382,5 +384,10 @@ body {
     .float-child-videosection2{
         margin: 0.25rem 0;
         align-items: flex-start;
+    }
+}
+@media (max-width: 900px) {
+    .video-section {
+        flex-direction: column;
     }
 }
