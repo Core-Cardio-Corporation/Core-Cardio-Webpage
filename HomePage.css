@@ -200,15 +200,6 @@ body {
     gap: 2rem;
 }
 
-.slideshow-container2 {
-    width: 100%;
-    max-width: 600px;
-    margin: 2rem 0 2rem 0;
-    position: relative;
-    border-radius: 16px;
-    overflow: hidden;
-}
-
 .mySlides2 {
     display: none;
     width: 100%;
