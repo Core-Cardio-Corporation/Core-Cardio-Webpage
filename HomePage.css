@@ -222,6 +222,20 @@ body {
     animation: fadein .3s;
 }
 
+.minutes-count {
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .bottom-navigation {
     position: static;
     width: 100vw;
