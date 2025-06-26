@@ -200,6 +200,16 @@ body {
     gap: 2rem;
 }
 
+.research-image {
+    width: 70%;
+    max-width: 600px;
+    margin: 2rem 0 2rem 0;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
 .mySlides2 {
     display: none;
     width: 100%;
@@ -224,7 +234,7 @@ body {
     color: brown;
 }
 .research-slogan {
-    margin-top: -50px;
+    margin-top: -20px;
     padding-top: 0px;
 }
 
