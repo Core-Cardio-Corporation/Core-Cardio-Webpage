@@ -117,7 +117,7 @@ body {
     gap: 2rem;
 }
 
-.slideshow-container {
+.slideshow-container, .slideshow-container2 {
     width: 100%;
     max-width: 600px;
     margin: 2rem 0 2rem 0;
@@ -188,12 +188,38 @@ body {
     margin-top: 1rem;
     max-width: 50%;
 }
+.research2 {
+    margin-top: 1rem;
+    max-width: 58%;
+}
+.research3 {
+    margin-top: 1rem;
+    max-width: 100%;
+}
 
 .research-info {
     text-align: left;
 }
+.CPR-info {
+    text-align: left;
+    padding-bottom: 50px;
+}
 
+.first-flex {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
 .second-flex {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.fourth-flex {
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -202,13 +228,14 @@ body {
 }
 
 .research-image {
-    width: 70%;
-    height: 350px;
+    width: 50%;
+    padding-right: 3%;
+    padding-left: 3%;
     margin: 2rem 0 2rem 0;
     position: relative;
     border-radius: 16px;
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .mySlides2 {
@@ -245,14 +272,76 @@ body {
 }
 
 .research-slogan {
-    margin-top: -20px;
+    margin-top: 10px;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 0%;
+    margin-right: 0%;
     background-color: brown;
     border: solid 20px maroon;
     border-radius: 50px;
+}
+.CPRvideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Survey {
+    text-align: center;
+}
+#Survey-button {
+    background-color: brown;
+    border: black 1px solid;
+    width: 80%;
+    height: 50px;
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px black;
+    border-style: solid;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    box-sizing: border-box;
+    color: bisque;
+    margin-bottom: 10px;
+    margin-top: 30px
+}
+#Survey-button:hover{
+    background-color:firebrick;
+    width: 80.5%;
+    height: 65px;
+
+}
+#Survey-button:active {
+    background-color:palevioletred;
+}
+
+
+.CPRsteps {
+    margin-left: 20px;
+}
+.Steps {
+    margin-top: 15px;
+    list-style: none;
+    text-indent: -55px;
+}
+.sub-steps {
+    margin-left: 20px;
+    margin-top: 1px;
+}
+.sub-sub-steps{
+    margin-left: 50px;
+    list-style: circle;
+}
+.CPR-image {
+    width: 80%;
+    position: relative;
+    margin-left: -70px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-top: 30px;
+    transform: rotate(270deg); /* Rotates the image 90 degrees */
+    margin-right: -80px;
 }
 
 .bottom-navigation {
@@ -264,7 +353,7 @@ body {
     background: transparent;
     box-shadow: none;
     padding-bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: -30px;
 }
 
 .nav-links2 {
@@ -396,5 +485,30 @@ body {
     .float-child3 {
         margin: 0.25rem 0;
         align-items: flex-start;
+    }
+}
+@media (max-width: 947px) {
+    .fourth-flex {
+        flex-direction:column-reverse;
+    }
+    .CPR-image {
+        margin: 0px;
+        padding: 0px;
+        width: 50%;
+        margin-bottom: 90px;
+    }
+}
+@media (max-width: 709px) {
+    .second-flex {
+        flex-direction: column-reverse;
+    }
+    .first-flex {
+        flex-direction: column;
+    }
+    .research, .research2 {
+        width: 500%;
+        margin: 0;
+        padding: 0;
+        border: solid red 2px;
     }
 }
