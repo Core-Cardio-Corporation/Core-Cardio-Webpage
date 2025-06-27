@@ -129,25 +129,31 @@ body {
 }
 
 .omg-were-people {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0 1.2%;
+    justify-items: stretch;
+    align-items: start;
     font-size: 15px;
-    padding: 0.25rem 2rem 0 2rem;
-    position: static;
-    height: auto;
-    border: none;
-    background-color: bisque;
+    padding: 0.25rem 0rem 0 0rem;
+    position: relative;
+    border: solid red 0px;
 }
 
-.omg-were-people li {
-    margin: 0 1rem;
+.divide-people {
+    grid-row: 1;
+    margin: 0 1.2% 0px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
     color: black;
+    word-wrap: break-word;
+    border: solid red 0px;
+    flex: 1 1 0;
+    min-width: 20px;
+    padding-bottom: 20px;
+
 }
 
 .omg-were-people img {
@@ -158,7 +164,39 @@ body {
     margin: 0 auto 8px auto;
     justify-content: center;
     align-content: center;
+    width: 99%;
+    border: solid black 2px;
+    max-width: 300px;
 }
+
+.personal-info, .personal-info4 {
+    grid-row: 2;
+    align-self: end;
+    border: solid blue 0px;
+    list-style: none;
+    margin: 0 1.2% 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-wrap: break-word;
+    flex: 1 1 0;
+    min-width: 20px;
+    margin-top: -30px;
+}
+
+.divider-line {
+    margin-bottom: -10px;
+}
+
+.omg-were-people > .divide-people:nth-child(1) { grid-column: 1; }
+.omg-were-people > .divide-people:nth-child(2) { grid-column: 3; }
+.omg-were-people > .divide-people:nth-child(3) { grid-column: 4; }
+.omg-were-people > .divide-people:nth-child(4) { grid-column: 2; }
+
+.omg-were-people > .personal-info:nth-of-type(5) { grid-column: 1; }
+.omg-were-people > .personal-info:nth-of-type(6) { grid-column: 3; }
+.omg-were-people > .personal-info:nth-of-type(7) { grid-column: 4; }
+.omg-were-people > .personal-info:nth-of-type(8) { grid-column: 2; }
 
 .underline{
     color: black;
@@ -171,13 +209,12 @@ body {
 .underline:hover,.click-here:hover{
     color: blue;
 }
-.divide-people{
-    width: 25%;
-}
 .bio{
     font-weight: normal;
     text-align:justify;
+    width: 100%;
 }
+
 
 .name,
 .name4 {
@@ -188,24 +225,16 @@ body {
     font-size: 20px;
     margin: 0px 0 8px 0;
     line-height: 1.1;
-    white-space: nowrap;
     width: 100%;
     display: block;
-    padding: 8px;
-}
-
-.line1 {
-    border: none;
-    border-bottom: 4px solid bisque;
-    width: 250px;
-    margin: 0 auto 4% auto;
-    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .line2 {
     border: none;
     border-bottom: 4px solid brown;
-    width: 95%;
+    width: 100%;
     margin: 0 auto 4% auto;
     display: block;
 }
@@ -216,28 +245,32 @@ body {
     gap: 2rem;
     justify-content: center;
     margin: 2rem 0;
+    justify-items: center;
 }
 
 .jreid-img {
     height: auto;
-    width: 250px;
+    max-width: 250px;
+    min-width: 100px;
     margin: 5px;
-    margin-left: 7%;
-    background-color: white;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: brown;
     border-width: 4px;
     padding: 35px;
-    padding-left: 75px;
-    padding-right: 75px;
 }
 
 .JReid-Contact {
-    border-radius: 10px;
     padding: 1.5rem 2rem;
     margin-left: 0;
+    border: solid blue 0px;
+    min-width: none;
 }
+
+.JReid-Contact a {
+    color: blue;
+}
+.JReid-Contact a:hover {
+    color: red;
+}
+
 
 /* FOOTER & BOTTOM NAVIGATION */
 .bottom-navigation {
@@ -351,6 +384,51 @@ body {
 }
 
 /* MEDIA QUERIES */
+@media (max-width: 1055px) {
+    .bio {
+        text-align: center;
+    }
+}
+@media (max-width: 709px) {
+    .omg-were-people {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .divide-people{
+        align-self: center;
+    }
+    .personal-info {
+        padding-bottom: 5px;
+    }
+    .personal-info4, .personal-info {
+        align-self: flex-start;
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+    .divider-line {
+        margin-bottom: 25px;
+        border-top: solid brown 3px;
+        width: 100%;
+    }
+    .bio {
+        text-align: justify;
+    }
+    .jreid-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .JReid-Contact {
+        word-wrap: break-word;
+        padding: 1rem 0.5rem;
+        width: 100%;
+    }
+}
+@media (max-width: 527px) {
+    .title-underline {
+        width: 410px;
+    }
+}
 @media (max-width: 500px) {
 
     .nav-links,
@@ -392,10 +470,5 @@ body {
     .float-child3 {
         margin: 0.25rem 0;
         align-items: flex-start;
-    }
-}
-@media (max-width: 527px) {
-    .title-underline {
-        width: 410px;
     }
 }
