@@ -509,6 +509,33 @@ body {
         width: 500%;
         margin: 0;
         padding: 0;
-        border: solid red 2px;
+    }
+    .research {
+        margin-top: 1rem;
+        max-width: 98%;
+    }
+    .research2 {
+        margin-top: 1rem;
+        max-width: 98%;
+    }
+    .research3 {
+        margin-top: 1rem;
+        max-width: 98%;
+    }
+    .research-image {
+        margin-top: -50px;
+    }
+    .slideshow-container, .slideshow-container2 {
+        width: 100%;
+        margin-top: -30px;
+    }
+    .main-flex {
+        flex-direction: column-reverse;
+    }
+    .CPR-image {
+        margin: 0px;
+        padding: 0px;
+        width: 70%;
+        margin-bottom: 90px;
     }
 }
