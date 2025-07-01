@@ -360,6 +360,9 @@ body {
     text-indent: -12px;
     margin-left: 12px;
     list-style: none;
+    word-wrap: break-word;
+    max-width: fit-content;
+    max-width: 95vw;
 }
 
 
