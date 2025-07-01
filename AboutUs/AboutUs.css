@@ -112,6 +112,7 @@ html, body {
     box-shadow: none;
     padding-bottom: 0; /* Remove bottom padding */
     margin-bottom: 0;  /* Remove bottom margin */
+    font-weight: normal;
 }
 
 .nav-links2 {
