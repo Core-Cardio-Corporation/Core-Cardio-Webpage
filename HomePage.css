@@ -343,7 +343,6 @@ body {
     list-style: none;
     word-wrap: break-word;
     max-width: fit-content;
-    max-height: max-content;
     max-width: 95vw;
 }
 
