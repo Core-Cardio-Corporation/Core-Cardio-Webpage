@@ -452,6 +452,6 @@ body {
     }
     .float-child7 img {
         width: 50%;
-        margin-top: -70px;
+        margin-top: 0px;
     }
 }
