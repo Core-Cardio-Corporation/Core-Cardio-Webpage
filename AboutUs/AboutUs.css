@@ -346,8 +346,17 @@ body {
     }
     .omg-were-people img {
         padding: 0;
-
     }
+    .omg-were-people img {
+    max-width: 130px;
+    max-height: 180px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 8px auto;
+    justify-content: center;
+    align-content: center;
+
+}
 }
 
 
