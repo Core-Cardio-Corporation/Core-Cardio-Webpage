@@ -342,6 +342,15 @@ body {
     text-decoration: underline;
 }
 
+@media (max-width: 709px) {
+    .video-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .float-child-videosection1 {
+        height: 350px;
+    }
+}
 @media (max-width: 500px) {
     .nav-links,
     .nav-links2 {
