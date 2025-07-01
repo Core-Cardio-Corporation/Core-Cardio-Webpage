@@ -63,6 +63,8 @@ body {
     margin: 0;
     gap: 2rem;
     background: white;
+    border-radius: 2rem;
+    box-shadow: 0 2px 8px maroon;
     text-align: center;
 }
 
