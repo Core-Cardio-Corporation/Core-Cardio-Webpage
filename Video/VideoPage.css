@@ -386,3 +386,7 @@ body {
     }
 }
 
+img[src*="DaKari_presenting.png"] {
+    transform: rotate(90deg);
+    display: block;
+}
