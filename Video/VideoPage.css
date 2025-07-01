@@ -388,8 +388,25 @@ body {
     }
 }
 
-img[src*="DaKari_presenting.png"] {
-    transform: rotate(90deg);
-    display: block; /* optional: removes inline gap */
-    /* You may want to adjust width/height as needed */
+.subtitle-underline2 {
+    margin-bottom: 0; /* Remove gap below the underline */
+    margin-top: 0;
+    width: 100%;
+    max-width: 900px;
+    border: none;
+    border-bottom: 4px solid black;
+    outline: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
+
+.Media img {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+
