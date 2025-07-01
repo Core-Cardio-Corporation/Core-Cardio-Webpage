@@ -390,5 +390,6 @@ body {
 
 img[src*="DaKari_presenting.png"] {
     transform: rotate(90deg);
-    display: block;
+    display: block; /* optional: removes inline gap */
+    /* You may want to adjust width/height as needed */
 }
