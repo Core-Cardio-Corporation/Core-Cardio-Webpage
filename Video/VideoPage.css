@@ -243,8 +243,6 @@ body {
 
 
 
-
-
 .bottom-navigation {
     position: static; /* Remove fixed positioning */
     width: 100vw;
@@ -399,6 +397,12 @@ body {
     .float-child-videosection2{
         margin: 0.25rem 0;
         align-items: flex-start;
+    }
+    .CPRvid {
+    height: 200px;
+    }
+    .float-child-videosection1{
+        height: 200px;
     }
 }
 
