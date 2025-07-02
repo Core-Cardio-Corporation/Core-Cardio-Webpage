@@ -230,7 +230,9 @@ body {
     margin-bottom: 30px;
 }
 
-
+.pic {
+    max-width: 400px;
+}
 
 
 
