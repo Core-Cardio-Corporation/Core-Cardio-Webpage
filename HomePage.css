@@ -560,6 +560,10 @@ body {
     }
 }
 @media (max-width: 500px) {
+    .title {
+    font-size: xx-large;
+}
+    
     .nav-links,
     .nav-links2 {
         flex-direction: column;
@@ -599,9 +603,8 @@ body {
         margin: 0.25rem 0;
         align-items: flex-start;
     }
-}
-@media (max-width: 444px) {
-    .title-underline {
-        width: 320px;
+        .title-underline {
+        width: 380px;
+        padding-top: 15px;
     }
 }
