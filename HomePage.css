@@ -145,7 +145,6 @@ body {
     margin: 2rem 0 2rem 0;
     position: relative;
     border-radius: 16px;
-    overflow: hidden;
 }
 
 .mySlides {
@@ -277,7 +276,6 @@ body {
     margin: 2rem 0 2rem 0;
     position: relative;
     border-radius: 16px;
-    overflow: hidden;
     margin-top: 30px;
 }
 
@@ -389,7 +387,6 @@ body {
     position: relative;
     margin-left: -70px;
     border-radius: 16px;
-    overflow: hidden;
     margin-top: 30px;
     transform: rotate(270deg);
     margin-right: -80px;
@@ -571,7 +568,7 @@ body {
         padding: 0.5rem 1vw;
         word-wrap: normal;
     }
-        .bottom-navigation {
+    .bottom-navigation {
         margin-bottom: -500px;
     }
     .body {
@@ -606,5 +603,8 @@ body {
         .title-underline {
         width: 380px;
         padding-top: 15px;
+    }
+    .CPRvideo {
+        height: 100%;
     }
 }
